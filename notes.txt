@@ -57,3 +57,5 @@ componente
 
 npm start
 - iniciar o serviço
+
+ng add @angular/material
