@@ -3,8 +3,10 @@ ANOTAÇÕES
 ==========
 
 npm init -y
+- -y - yes
 
 npm i json-server
+- i - install
 
 json-server --watch db.json --port 3000
 - iniciar o json-server
@@ -52,3 +54,6 @@ componente
 - - um com a lógica (exemplo.component.ts)
 - é gerado uma tag para que seja renderizado o conteúdo deste componente
 - - <app-exemplo> </app-exemplo>
+
+npm start
+- iniciar o serviço
