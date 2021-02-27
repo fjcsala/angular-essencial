@@ -33,7 +33,7 @@ npm i -g @angular/cli
 ng new app-name
 - nova aplicação em angular
 
-[ main.ts ] -> [ AppModule ] -> [ AppComponent ]-> [ AppHeader] [ AppFooter ] [ AppContent ] ...
+[ main.ts ] -> [ AppModule ] -> bootstrap -> [ AppComponent ] -> [ AppHeader] [ AppFooter ] [ AppContent ] ...
 
 módulo
 - um módulo é um pedaço do app
