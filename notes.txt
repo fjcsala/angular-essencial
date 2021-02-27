@@ -1,0 +1,54 @@
+==========
+ANOTAÇÕES
+==========
+
+npm init -y
+
+npm i json-server
+
+json-server --watch db.json --port 3000
+- iniciar o json-server
+- monitorar o arquivo db.json
+- através da porta 3000
+
+npm start
+
+angular
+- framework js
+- baseado em componentes (árvore de componentes)
+- desenvolvido pelo google
+- criação de spa (single page application) baseada em componentes
+- typesript
+- - superset do js
+- - desenvolvido pela microsoft
+- - compilado para js para a interpretação do navegador
+- angularjs | angular 2 ... 4 ... 9 ...
+- cli (command line interface)
+
+npm i -g @angular/cli
+- instalação do angular
+
+ng new app-name
+- nova aplicação em angular
+
+[ main.ts ] -> [ AppModule ] -> [ AppComponent ]-> [ AppHeader] [ AppFooter ] [ AppContent ] ...
+
+módulo
+- um módulo é um pedaço do app
+- um módulo pode ter seus componentes visíveis ou não a outros módulos
+- um módulo possui 5 atríbutos
+- - declarations
+- - imports
+- - exports
+- - providers
+- - bootstrap
+
+componente
+- um componente pertence a um módulo do app
+- um app pode conter vários componentes
+- cada componente pode ser composto por 3 arquivos
+- - um com o estilo (exemplo.component.css)
+- - um com a estrutura (exemplo.component.html)
+- - um com a lógica (exemplo.component.ts)
+- é gerado uma tag para que seja renderizado o conteúdo deste componente
+- - <app-exemplo> </app-exemplo>

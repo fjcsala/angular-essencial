@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Arroz",
+      "price": 17.98
+    },
+    {
+      "id": 2,
+      "name": "Açúcar",
+      "price": 11.48
+    },
+    {
+      "id": 3,
+      "name": "Feijão",
+      "price": 5.98
+    },
+    {
+      "id": "4",
+      "name": "Óleo",
+      "price": "5.48"
+    }
+  ]
+}
