@@ -59,3 +59,7 @@ npm start
 - iniciar o serviço
 
 ng add @angular/material
+
+ng g c componentes/template/*component*
+- header
+- footer
